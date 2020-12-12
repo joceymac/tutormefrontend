@@ -1,0 +1,556 @@
+
+
+.navbar {
+  width:1000;
+  height:20;
+  top:10px;
+  left:0px;
+  position: fixed;
+  font-weight:'Bold';
+  background:#1464f6;
+  top:10px;
+  
+  
+}
+/* .navbarbrand h1{
+  color:white;
+} */
+
+.home h1{
+  font-family: Helvetica;
+  font-style: bold;
+  color: #ffffff;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 16px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.my-li a {
+  display: block;
+  color:white;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 16px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+	color: black;
+  /* background-color: #111; */
+}
+
+.my-li a:hover {
+	color: black;
+  /* background-color: #111; */
+}
+
+
+
+.header-color {
+  font-family: 'Source San Pro';
+  font-style:#606060;
+  font-size: 21px;
+  font-weight:'Bold';
+  background-color:whitesmoke;
+  position: fixed;
+ /*scroll-behavior: hidden;*/
+ }
+/* 
+.banner-text {
+  top:120px;
+  opacity: .8;
+  width: 70%;
+  margin: auto;
+  border-radius: 5px;
+  
+} */
+/* .banner-text h1 {
+  font-family:'Source Sans Pro';
+  font-size:45px;
+  padding:100px;
+  font-weight: bold;
+  color:#0c59cf;
+  text-align:left;
+
+} */
+/* .banner-text hr {
+  border-top:2px line white;
+  width:85%;
+  margin:auto;
+  padding-right:80px;
+  color:rgb(4, 156, 216);
+/* } */
+/* .banner-text p {
+  color:#0c59cf;
+  font-size:20px;
+  padding: 0.5em;
+  padding-left: 100px;
+  text-align:left;
+  
+} */ */
+
+
+.subtitle {
+  
+  width:50%;
+  height:80%;
+  text-align:center;
+  padding:40px 30px 50px 30px;
+
+  padding-right:1em;
+  color:rgb(4, 156, 216);
+  justify-items:center;
+}
+.subtitle h5 {
+  font-size:28px !important;
+  text-align:center !important;
+  color:#292828!important;
+}
+.subtitle p {
+  font-size:16px;
+  color:#292828;
+  text-align:center;
+}
+
+/* main page top  */
+.title-text-1 {
+  padding:150px 0px 40px 0px;
+  opacity: .8;
+  width: 1000px;
+  margin: auto;
+  border-radius: 10px;
+  
+}
+.title-text-1 h1 {
+  font-family: 'Source Sans Pro';
+  font-size:55px;
+  font-weight: bold;
+  color:#0c59cf;
+  text-align:left;
+
+}
+.title-text-1 p {
+  color:#0c59cf;
+  font-size:30px;
+  padding: 0.5em;
+  text-align:center;
+  font-family: 'Source San Pro';
+}
+
+
+.title-text {
+  padding:110px 70px 50px 20px;
+  opacity: .8;
+  width: 750px;
+  margin: auto;
+  border-radius: 10px;
+  
+}
+.title-text h1 {
+  font-family: 'Source Sans Pro';
+  font-size:50px;
+  font-weight: bold;
+  color:#0c59cf;
+  text-align:center;
+
+}
+.title-text p {
+  color:#292828;
+  font-size:25px;
+  padding: 0.5em;
+  text-align:center;
+  font-family: 'Source San Pro';
+}
+
+.steps {
+  
+  width:90%;
+  height:80%;
+  text-align:center;
+  padding:1px 15px 0px 20px;
+
+  padding-right:1em;
+  color:rgb(4, 156, 216);
+  justify-items:center;
+  
+}
+.steps h5 {
+  font-size:28px;
+  text-align:center;
+  color:#292828;
+  
+}
+.steps p {
+  font-size:16px;
+  color: #292828;
+  text-align:center;
+  
+}
+
+/*** Testimonails ***/
+.test-level  {
+  padding:110px 70px 50px 20px;
+  opacity: .8;
+  width: 750px;
+  margin: auto;
+  border-radius: 10px;
+
+}
+.test-level h1 {
+  font-family:'Source Sans Pro' ;
+  font-size:50px;
+  font-weight: bold;
+  color:#0c59cf;
+  text-align:center;
+
+}
+
+.test-level p {
+  color: #292828;
+  font-size:25px;
+  padding: 0.5em;
+  font-family: 'Lato';
+  text-align:center;
+}
+.stepslevel {
+  width:90%;
+  height:80%;
+  text-align:center;
+  padding:1px 20px 30px 20px;
+  border:1px solid grey;
+  padding-right:1em;
+  justify-items:center;
+  
+}
+.stepslevel p {
+  font-size:16px;
+  color:#606060;
+  text-align:center;
+  
+}
+
+
+/* log in */
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  margin: 20px;
+  /* margin-left: 100px; */
+  height: 500px; 
+  width: 1000px;
+  padding-left: 100px;
+  /* Should be removed. Only for demonstration */
+}
+
+
+hr{
+	position: relative;  
+    border-top: 10px solid #aedd94; 
+    height: 10px; 
+    /* width: 100%; */
+    background: #aedd94; 
+    margin-bottom: 0px;
+}
+
+h2{
+  color: #0844a4;
+  font-family: 'Source Sans Pro';
+  font-size:40px;
+  font-weight: bold;
+
+
+}
+
+
+.studentform {
+  float: left;
+  padding: 10px;
+  margin: 20px;
+  /* margin-left: 100px; */
+  height: 500px; 
+  width: 1000px;
+  padding-left: 100px;
+  /* Should be removed. Only for demonstration */
+}
+
+h3 {
+  font-family:'Source Sans Pro' ;
+  color:#0c59cf !important;
+  font-weight: bold !important;
+
+}
+
+
+
+
+/*** studentsignup ***/
+
+
+
+.studentsignupform {
+ 
+  padding:50px 50px 20px 50px;
+  margin-top: 100px;
+  margin-left: 40px;
+  width:800px;
+  position:center;
+}
+.studentsignupform h4{
+  padding-bottom:6px;
+  font-family:'Source Sans Pro' ;
+  border-bottom:1px solid rgb(186, 243, 101);
+  text-align: left;
+  color: #0c59cf;
+  font-size:50;
+}
+ .btn{
+  margin-right:60px;
+  width:120px;
+}
+ /*** tutor request form ***/
+ /* .tutorrequestform {
+  border:2px solid #606060;
+  padding:50px 50px 20px 50px;
+  margin-top: 120px;
+  margin-left: 60px;
+  width:570px;
+  position:center;
+}
+h5{
+  text-align: left;
+  color: #0c59cf;
+  font: size 25;;
+}
+.btn{
+  margin-right:60px;
+} */
+
+
+/**** become tutor **/
+.becometutor {
+  padding:50px 50px 20px 50px;
+  margin-top: 100px;
+  margin-left: 40px;
+  width:570px;
+  position:center;
+}
+.becometutor h4{
+  padding-bottom:6px;
+  border-bottom:1px solid rgb(186, 243, 101);
+  text-align: left;
+  font-family:'Source Sans Pro' ;
+  
+  color: #0c59cf;
+  font-size:50;
+}
+.btn{
+  margin-right:60px;
+  width:120px;
+  
+}
+
+/*** student loginform ***/
+
+.studentloginform{
+  
+  padding:50px 50px 20px 50px;
+  margin-top: 100px;
+  margin-left: 40px;
+  width:500px;
+  position:center;
+}
+.studentloginform h4{
+  padding-bottom:6px;
+  font-family:'Source Sans Pro' ;
+  border-bottom:1px solid rgb(186, 243, 101);
+  text-align: left;
+  font-size:20;
+  color: #0c59cf; 
+}
+ .btn{
+  margin-right:60px;
+  width:120px;
+  
+}
+
+/*** tutor loginform ***/
+.tutorloginform{
+ 
+  padding:50px 50px 20px 50px;
+  margin-top: 100px;
+  margin-left: 40px;
+  width:500px;
+  position:center;
+}
+.tutorloginform h4{
+  padding-bottom:6px;
+  font-family:'Source Sans Pro' ;
+  border-bottom:1px solid rgb(186, 243, 101);
+  text-align: left;
+  font-size:20;
+  color: #0c59cf;
+}
+.btn{
+  margin-right:60px;
+  width:120px;
+}
+
+
+/*** studentprofile ***/
+/* .studentnavbar {
+  top:5px;
+  
+  width:1270px;
+  
+  position:fixed;
+  margin-bottom:1px solid grey;
+  
+  background:#0c59cf;
+  
+}
+.nav-item {
+  font-style:black;
+}
+.justify-content-end {
+  
+  height:50px;
+  
+} */
+
+
+.nav-offset {
+  
+}
+
+/* student profile  */
+
+h6{
+  margin-left:25px !important;
+  text-align: left !important;
+  color: #0c59cf !important;
+}
+
+
+
+
+.request table {
+
+  width:1100px;
+  table-layout: auto;
+}
+
+.request table hr {
+color: blue;
+}
+
+
+.history table {
+  
+  width:1100px;
+
+}
+
+/*** tutorprofile ***/
+.tutornavbar {
+  top:5px;
+  
+  width:1270px;
+  
+  position:fixed;
+  margin-bottom:1px solid grey;
+  
+  background:#0c59cf;
+  
+}
+.nav-item {
+  font-style:black;
+}
+.justify-content-end {
+  
+  height:50px;
+  
+}
+h6{
+  margin-left:20px;
+  text-align: left;
+  color: #0c59cf;
+}
+
+
+
+/*** footer section ***/
+footer{
+  padding: 70px 15px;
+  background-color: white
+}
+footer .logo{
+  flex: 0 0 100%;
+  max-width: 100%;
+  text-align: center;
+  font-size: 10px;
+  color:grey;
+  font-weight: 900;
+}
+footer .social{
+  flex:0 0 100%;
+  max-width: 100%;
+  text-align:center;
+  padding-top: 15px;
+}
+footer .social a{
+  color: #999999;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 12px;
+  transition: all .5s ease;
+  text-decoration: none;
+}
+footer .social a:hover{
+  color:#ffffff;
+}
+
+/*Copyright*/
+.copyright{
+  background-color: #0c0c17;
+  border-top:1px solid #1d1d27;
+  padding:15px;
+}
+.copyright p{
+  color:#838383;
+  margin:0;
+  text-align:center;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
